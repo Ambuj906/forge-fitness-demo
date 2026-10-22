@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171918" />
+    <meta
+      name="description"
+      content="FORGE FITNESS is a fictional premium gym website demo built to showcase modern fitness branding, training programs and membership options."
+    />
+    <title>FORGE FITNESS — Built Through Discipline</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="demo-banner">
+      <span class="demo-dot" aria-hidden="true"></span>
+      FICTIONAL BRAND · WEBSITE DEMONSTRATION
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="brand" href="#home" aria-label="FORGE FITNESS home">
+          <span class="brand-mark" aria-hidden="true">F.</span>
+          <span class="brand-name">FORGE<span>FITNESS</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav
+          class="primary-nav"
+          id="primary-navigation"
+          aria-label="Main navigation"
+        >
+          <a href="#programs">Programs</a>
+          <a href="#facilities">The Gym</a>
+          <a href="#coaches">Coaches</a>
+          <a href="#membership">Membership</a>
+          <a class="nav-cta" href="#contact"
+            >Start Here <span aria-hidden="true">↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-dark" id="home">
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="Athlete training with weights in a dark industrial gym"
+        ></div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+          <p class="eyebrow">
+            <span class="accent-line"></span> TRAIN WITH INTENTION
+          </p>
+
+          <h1>BUILT<br />THROUGH<br /><span>DISCIPLINE.</span></h1>
+
+          <p class="hero-description">
+            No shortcuts. No noise. Just focused training, expert guidance and a
+            stronger version of you.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#membership">
+              Explore Membership <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-outline" href="#programs">
+              Find Your Training
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="hero-note-number">01</span>
+            <span>YOUR WORK. YOUR PACE. YOUR PROGRESS.</span>
+          </div>
+        </div>
+
+        <div class="hero-side-label" aria-hidden="true">
+          STRENGTH · MOVEMENT · CONSISTENCY
+        </div>
+      </section>
+
+      <section class="intro section-light" id="about">
+        <div class="container intro-grid">
+          <p class="eyebrow">
+            <span class="accent-line"></span> THE FORGE MINDSET
+          </p>
+
+          <div class="intro-copy">
+            <h2>SHOW UP.<br /><span>PUT IN THE WORK.</span></h2>
+            <p>
+              Progress isn't built in a day. It's built in the decisions you
+              make every time you walk through the door. FORGE is a fictional
+              fitness concept designed around purposeful training, quality
+              equipment and a no-nonsense approach to getting stronger.
+            </p>
+            <a class="text-link" href="#facilities">
+              DISCOVER THE SPACE <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="intro-index" aria-hidden="true">
+            <span>F</span>
+            <span>01 / THE MINDSET</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs section-dark section-padding" id="programs">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="accent-line"></span> TRAIN WITH PURPOSE
+              </p>
+              <h2>FIND YOUR<br /><span>EDGE.</span></h2>
+            </div>
+            <p class="section-description">
+              Different goals. Different approaches. One place to put in the
+              work.
+            </p>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-item">
+              <div
+                class="program-image program-image-strength"
+                role="img"
+                aria-label="Strength training with free weights"
+              ></div>
+              <div class="program-content">
+                <span class="item-number">01 / STRENGTH</span>
+                <h3>BUILD STRENGTH</h3>
+                <p>
+                  Train the fundamentals with progressive resistance, sound
+                  technique and a plan you can follow.
+                </p>
+                <a href="#contact" class="text-link"
+                  >ENQUIRE <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="program-item">
+              <div
+                class="program-image program-image-conditioning"
+                role="img"
+                aria-label="Athlete working through a conditioning session"
+              ></div>
+              <div class="program-content">
+                <span class="item-number">02 / CONDITIONING</span>
+                <h3>MOVE BETTER</h3>
+                <p>
+                  Develop stamina, coordination and work capacity through
+                  structured conditioning sessions.
+                </p>
+                <a href="#contact" class="text-link"
+                  >ENQUIRE <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="program-item">
+              <div
+                class="program-image program-image-coaching"
+                role="img"
+                aria-label="Coach guiding an athlete through a training movement"
+              ></div>
+              <div class="program-content">
+                <span class="item-number">03 / PERSONAL TRAINING</span>
+                <h3>TRAIN WITH A PLAN</h3>
+                <p>
+                  Get focused, individual guidance built around your experience,
+                  goals and training routine.
+                </p>
+                <a href="#contact" class="text-link"
+                  >ENQUIRE <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="facilities section-light section-padding" id="facilities">
+        <div class="container facility-grid">
+          <div class="facility-visual">
+            <div
+              class="facility-image"
+              role="img"
+              aria-label="Strength and conditioning equipment in a contemporary gym"
+            ></div>
+            <div class="facility-caption">
+              <span>THE SPACE</span>
+              <span>DESIGNED FOR THE WORK.</span>
+            </div>
+          </div>
+
+          <div class="facility-copy">
+            <p class="eyebrow">
+              <span class="accent-line"></span> YOUR TRAINING FLOOR
+            </p>
+            <h2>LESS DISTRACTION.<br /><span>MORE INTENTION.</span></h2>
+            <p class="section-description">
+              A training environment concept focused on the essentials:
+              dependable equipment, usable space and room to concentrate.
+            </p>
+
+            <ul class="facility-list">
+              <li>
+                <span>01</span><span>Free weights and strength equipment</span
+                ><span aria-hidden="true">↗</span>
+              </li>
+              <li>
+                <span>02</span><span>Functional training area</span
+                ><span aria-hidden="true">↗</span>
+              </li>
+              <li>
+                <span>03</span><span>Cardio and conditioning equipment</span
+                ><span aria-hidden="true">↗</span>
+              </li>
+              <li>
+                <span>04</span><span>Space for personal coaching</span
+                ><span aria-hidden="true">↗</span>
+              </li>
+            </ul>
+
+            <p class="fine-print">
+              Illustrative facilities list. Actual equipment and amenities would
+              be confirmed with the gym owner for a real client website.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="coaches section-dark section-padding" id="coaches">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="accent-line"></span> GUIDANCE THAT MATTERS
+              </p>
+              <h2>MEET YOUR<br /><span>COACHING TEAM.</span></h2>
+            </div>
+            <p class="section-description">
+              A concept team representing the coaching experience this gym could
+              offer. Names and profiles are fictional.
+            </p>
+          </div>
+
+          <div class="coach-grid">
+            <article class="coach-item">
+              <div
+                class="coach-image coach-image-one"
+                role="img"
+                aria-label="Portrait representing a fictional strength coach"
+              ></div>
+              <div class="coach-meta">
+                <div>
+                  <span class="item-number">COACH / 01</span>
+                  <h3>ARJUN MEHRA</h3>
+                </div>
+                <span class="coach-symbol" aria-hidden="true">↗</span>
+              </div>
+              <p>Strength &amp; resistance training</p>
+            </article>
+
+            <article class="coach-item">
+              <div
+                class="coach-image coach-image-two"
+                role="img"
+                aria-label="Portrait representing a fictional conditioning coach"
+              ></div>
+              <div class="coach-meta">
+                <div>
+                  <span class="item-number">COACH / 02</span>
+                  <h3>RIYA SHARMA</h3>
+                </div>
+                <span class="coach-symbol" aria-hidden="true">↗</span>
+              </div>
+              <p>Movement &amp; conditioning</p>
+            </article>
+
+            <article class="coach-item">
+              <div
+                class="coach-image coach-image-three"
+                role="img"
+                aria-label="Portrait representing a fictional personal trainer"
+              ></div>
+              <div class="coach-meta">
+                <div>
+                  <span class="item-number">COACH / 03</span>
+                  <h3>KABIR SINGH</h3>
+                </div>
+                <span class="coach-symbol" aria-hidden="true">↗</span>
+              </div>
+              <p>Personal training &amp; technique</p>
+            </article>
+          </div>
+
+          <p class="fine-print">
+            Fictional names and illustrative profiles. No real qualifications or
+            professional credentials are claimed.
+          </p>
+        </div>
+      </section>
+
+      <section class="membership section-light section-padding" id="membership">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">
+                <span class="accent-line"></span> YOUR NEXT MOVE
+              </p>
+              <h2>MAKE ROOM<br /><span>FOR PROGRESS.</span></h2>
+            </div>
+            <p class="section-description">
+              Three illustrative membership concepts. Choose a starting point
+              and ask about the details.
+            </p>
+          </div>
+
+          <div class="membership-grid">
+            <article class="membership-card">
+              <span class="plan-label">01 / STARTER</span>
+              <h3>FOUNDATION</h3>
+              <p class="plan-description">
+                For building a consistent training habit.
+              </p>
+              <div class="plan-price">
+                <span>₹</span>1,499 <small>/ month</small>
+              </div>
+              <ul>
+                <li>Gym floor access</li>
+                <li>Strength equipment</li>
+                <li>Self-guided training</li>
+              </ul>
+              <a class="button button-dark" href="#contact"
+                >Ask About This Plan <span aria-hidden="true">↗</span></a
+              >
+            </article>
+
+            <article class="membership-card membership-featured">
+              <span class="plan-label">02 / POPULAR CONCEPT</span>
+              <h3>PERFORMANCE</h3>
+              <p class="plan-description">
+                For a more structured weekly routine.
+              </p>
+              <div class="plan-price">
+                <span>₹</span>2,499 <small>/ month</small>
+              </div>
+              <ul>
+                <li>Gym floor access</li>
+                <li>Conditioning area access</li>
+                <li>Illustrative group sessions</li>
+              </ul>
+              <a class="button button-primary" href="#contact"
+                >Ask About This Plan <span aria-hidden="true">↗</span></a
+              >
+            </article>
+
+            <article class="membership-card">
+              <span class="plan-label">03 / COACHED</span>
+              <h3>PERSONAL</h3>
+              <p class="plan-description">For more individual attention.</p>
+              <div class="plan-price">
+                <span>₹</span>4,999 <small>/ month</small>
+              </div>
+              <ul>
+                <li>Gym floor access</li>
+                <li>Personal coaching concept</li>
+                <li>Individual training guidance</li>
+              </ul>
+              <a class="button button-dark" href="#contact"
+                >Ask About This Plan <span aria-hidden="true">↗</span></a
+              >
+            </article>
+          </div>
+
+          <p class="fine-print">
+            All prices and inclusions are fictional examples for design
+            demonstration only. They are not real offers.
+          </p>
+        </div>
+      </section>
+
+      <section class="cta-section section-dark">
+        <div class="container cta-inner">
+          <p class="eyebrow">
+            <span class="accent-line"></span> THE FIRST STEP IS YOURS
+          </p>
+          <h2>READY TO<br /><span>GET TO WORK?</span></h2>
+          <a class="button button-primary" href="#contact">
+            Start a Conversation <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="cta-watermark" aria-hidden="true">F.</div>
+      </section>
+
+      <section class="contact section-light section-padding" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-intro">
+            <p class="eyebrow">
+              <span class="accent-line"></span> GET IN TOUCH
+            </p>
+            <h2>LET'S TALK<br /><span>TRAINING.</span></h2>
+            <p class="section-description">
+              Interested in this fictional gym concept? The contact details
+              below are placeholders and must be replaced before real-world use.
+            </p>
+            <a
+              class="button button-dark"
+              href="mailto:hello@example.com?subject=FORGE%20Fitness%20Enquiry"
+            >
+              Email Placeholder <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="contact-details">
+            <div class="detail-block">
+              <span class="detail-label">DEMO LOCATION</span>
+              <p>Example Road, Jaipur, Rajasthan</p>
+              <span class="fine-print"
+                >Fictional address — not a real gym location.</span
+              >
+            </div>
+
+            <div class="detail-block">
+              <span class="detail-label">ILLUSTRATIVE HOURS</span>
+              <p>Monday – Saturday</p>
+              <p>6:00 AM – 10:00 PM</p>
+              <span class="fine-print"
+                >Example schedule only; not verified operating hours.</span
+              >
+            </div>
+
+            <div class="detail-block">
+              <span class="detail-label">WHATSAPP ENQUIRIES</span>
+              <p>Placeholder number — not connected</p>
+              <a
+                class="text-link"
+                href="https://wa.me/910000000000"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                OPEN DEMO LINK <span aria-hidden="true">↗</span>
+              </a>
+              <span class="fine-print">
+                Replace the placeholder with an authorized business number
+                before use.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a
+          class="brand footer-brand"
+          href="#home"
+          aria-label="FORGE FITNESS home"
+        >
+          <span class="brand-mark" aria-hidden="true">F.</span>
+          <span class="brand-name">FORGE<span>FITNESS</span></span>
+        </a>
+        <a class="back-to-top" href="#home">BACK TO TOP ↑</a>
+      </div>
+      <div class="container footer-bottom">
+        <p>FICTIONAL FITNESS BRAND · PORTFOLIO DEMONSTRATION</p>
+        <p>© 2026 FORGE FITNESS CONCEPT</p>
+      </div>
+      <div class="container footer-disclaimer">
+        This is a website demo. Business details, names, pricing, address,
+        schedule and contact information are illustrative and must be verified
+        and replaced before any commercial launch.
+      </div>
+    </footer>
+  </body>
+</html>
+```
